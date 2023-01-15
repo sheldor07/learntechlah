@@ -5,7 +5,7 @@ const {
 } = require('../../controllers/project')
 
 const route = Router()
-route.get('/', async (req, res) => {
+route.get('/:id', async (req, res) => {
     const projects = await showAllProjects()
     res.status(200).send(projects)
 

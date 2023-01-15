@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-let bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt');
 //initialising database
 const db = new Sequelize({
     dialect: 'mysql',
@@ -40,8 +40,11 @@ const Projects = db.define('project', {
     techStack:Sequelize.DataTypes.STRING,
 })
 
-// Users.hasMany(Projects)
-// Projects.belongsTo(Users)
+Users.hasMany(Projects,{
+    foreignKey: 'userId'
+})
+Projects.belongsTo(Users)
+
 
 module.exports = {
     db, 
