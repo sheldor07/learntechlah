@@ -225,4 +225,11 @@ footer {
     transform:translateY(100px)
 
   }
+
+  /* BLOG PAGE */
+  #blog{
+    margin-left:25%;
+    margin-right:25%;
+    text-align:center;
+  }
   
