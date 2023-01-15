@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize')
+let bcrypt = require('bcrypt');
 //initialising database
 const db = new Sequelize({
     dialect: 'mysql',
@@ -21,7 +22,7 @@ const Users = db.define('user', {
         set(value) {
             // Storing passwords in plaintext in the database is terrible.
             // Hashing the value with an appropriate cryptographic hash function is better.
-            this.setDataValue('password', hash(value));
+            this.setDataValue('password',bcrypt.hashSync('myPassword', 10))
         }
     },
     emailId:Sequelize.DataTypes.STRING,
