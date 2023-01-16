@@ -1,3 +1,5 @@
 $(()=>{
-   
+    $('#btnContentPage').click(()=>{
+        
+    })
 })

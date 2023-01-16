@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+:root{
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+    --bs-primary:#5ab9eA;
+    --bg-primary:#5ab9eA;
+    --bs-secondary:#d4ecff;
+    --bg-secondary:#d4ecff;
+
+}
+/* COMMON STUFF */
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-primary{
+    background-color:#5ab9eA;
+}
+#course-contents{
+    width:25%;
+    height:100%;
+    background-color:blue;
+}
+#container-youtube{
+    width:75%;
+    height:75%;
+    background-color:green;
+}
+#youtube-player{
+    margin-top:100px;
+    position:absolute;top:0px;width:75%;height:70vh;
+}
