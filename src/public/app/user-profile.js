@@ -1,3 +1,8 @@
+$(()=>{
+  $('#btnGetJob').click(()=>{
+    
+  })
+})
 function getUserInfo(username) {
   $.get(`/api/users/${username}`, (user) => {
     let userContainer = $('#user-card-container')
