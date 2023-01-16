@@ -1,6 +1,6 @@
 $(()=>{
   $('#btnGetJob').click(()=>{
-    
+      $('#content').load('./components/get-jobs.html')
   })
 })
 function getUserInfo(username) {

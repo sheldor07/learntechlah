@@ -336,6 +336,24 @@ html{
   width:100%;
   background-color:white;
 }
+/* GET JOBS PAGE */
+#job-text{
+  text-align:left;
+  font-size:20pt;
+}
+.carousel-img{
+  width:50px;
+  height:150px;
+}
+.job-container{
+  text-align:center;
+}
+.control-link{
+  color:black;
+}
+.company-img-carousel{
+  margin-top:100px;
+}
 /* FOOTER */
 #footer {
   z-index:-1;
