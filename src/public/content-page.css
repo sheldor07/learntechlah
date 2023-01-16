@@ -17,29 +17,3 @@ html{
 .bg-primary{
     background-color:#5ab9eA;
 }
-#course-contents{
-    width:25%;
-    height:90vh;
-
-}
-#container-youtube{
-    width:75%;
-    height:100vh;
-    background-color:var(--bg-primary);
-}
-#youtube-player{
-    margin-top:100px;
-    position:absolute;top:0px;width:75%;height:70vh;
-}
-.vid-link{
-    text-decoration: none;
-}
-.projects-btn-container{
-    text-align: center;
-    margin-top:30vh;
-    margin-bottom:10vh;
-
-}
-#btnProjects{
-    font-size:30pt;
-}
