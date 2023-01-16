@@ -12,7 +12,7 @@ app.use('/api/projects', projectsRoute)
 app.use('/',express.static(__dirname + '/src/public'))
 
 
-db.sync()
+db.sync({force:true})
     .then(()=>{
         app.listen(8484,()=>{
             console.log('server started on localhost:8484')

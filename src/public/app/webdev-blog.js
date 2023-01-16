@@ -1,6 +1,6 @@
 $(()=>{
     $('#btnContentPage').click(()=>{
         console.log('hello')
-        $('#content').load('components/content-page.html')
+        $('#content').load('components/content-page.html#container-youtube')
     })
 })
