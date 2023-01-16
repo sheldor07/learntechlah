@@ -18,14 +18,19 @@ html{
 .bg-primary{
     background-color:#5ab9eA;
 }
-footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;   /* Height of the footer */
-    background:#6cf;
- }
- 
+.btn:hover{
+  transform: translate(-5px,-5px);
+  box-shadow: 15px 15px 10px;
+  transition:0.5s;
+}
+.btn:active{
+  transform: translate(5px,3px);
+  box-shadow: 5px 5px 10px;
+  transition:0.1s;
+}
+.navbar{
+  background-color:var(--bg-primary)
+}
 /* LANDING PAGE */
 
 .landing-text{
@@ -33,6 +38,9 @@ footer {
     padding-bottom:25px;
     text-align:center;
 
+}
+#landing-text{
+  padding-top:150px;
 }
 .landing-text h1{
     font-size:74pt;
@@ -44,6 +52,7 @@ footer {
     color:var(--bg-primary)
 }
 #landing-btn-group{
+    margin-top:-30px;
     text-align:center;
 }
 .landing-text > #subheader-text{
@@ -284,4 +293,48 @@ footer {
 }
 #btnProjects{
   font-size:30pt;
+}
+
+/* PROJECTS PAGE */
+.projects-text-container{
+  padding-left:100px;
+  text-align:left;
+  width:100%;
+}
+.projects-text{
+  font-size:20pt;
+}
+.projects-text-list{
+  font-size:14pt;
+}
+#project-text-row{
+  width:100%
+}
+#add-projects-container{
+  text-align:center;
+}
+#btnAddProjects{
+  font-size:20pt;
+}
+/* USER PROFILE PAGE */
+#user-avatar{
+  text-align:center;
+}
+#user-profile-container{
+  height:1000px;
+  width:100%;
+  background-color:green;
+}
+#show-projects-container{
+  height:100px;
+  width:100%;
+  color:white;
+}
+/* FOOTER */
+#footer {
+  z-index:-1;
+  bottom:0;
+  width:100%;
+   /* Height of the footer */
+  background:#6cf;
 }

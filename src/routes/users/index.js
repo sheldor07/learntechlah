@@ -25,7 +25,8 @@ route.get('/:id', async (req, res) => {
 
 })
 route.get('/', async (req, res) => {
-        const user = await createUser(req.body.username, req.body.password)
+        const user = await createUser(req.body.username, req.body.password,req.body.emailId)
+        console.log(req.body)
         if (user) {
             res.status(200).send(user)
         }
