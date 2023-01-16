@@ -1,72 +1,233 @@
-<div id="header-text">
-</div>
-<div id="blog">
-    <h2>What is web development?</h2>
-<p>A web developer&rsquo;s job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website&rsquo;s performance and capacity.&nbsp;</p>
-<h3>Types of web developers</h3>
-<p>Web developers usually fall under one of three categories: back-end developers, front-end developers, and full-stack developers. Some web developers also work as webmasters. Let&rsquo;s take a closer look at each of these roles.</p>
-<p><br></p>
-<ul>
-    <li>
-        <p><strong>Back-end web developers</strong> create the website&rsquo;s structure, write code, and verify the code works. Their responsibilities also may include managing access points for others who need to manage a website&rsquo;s content.&nbsp;</p>
-    </li>
-</ul>
-<p><br></p>
-<ul>
-    <li>
-        <p><strong>Front-end web developers</strong> work on the visual part of the website&mdash;the pages visitors see and interact with (also known as the user interface). They design the physical layout of each page, integrate graphics, and use HTML and JavaScript to enhance the site. You can gain essential front-end web development skills with <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" rel="" target="_self">Meta&apos;s Front-End Developer Professional Certificate</a>.</p>
-    </li>
-    <li>
-        <p><strong>Full-stack developers</strong> do the work of both a back-end and front-end developer. These developers have the knowledge to build a complete website and may work for organizations that don&rsquo;t have the budget for a large website team. If you&apos;re interested in full-stack web development, consider earning <a href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer" rel="" target="_self">IBM&apos;s Full-Stack Developer Professional Certificate</a>.</p>
-    </li>
-    <li>
-        <p><strong>Webmasters</strong> are essentially website managers. Their primary responsibility is to keep the website updated, ensuring that the links and applications on each page work properly</p>
-    </li>
-    
-        <h3>Web developer career path</h3>
-        <p>Many web developers start their careers with a single focus, usually front-end or back-end development. They may move on to be full-stack developers or explore careers in related fields, including project management, computer programming, or graphic design.&nbsp;</p>
-        <h2>How much do web developers make?</h2>
-        <p>The median annual salary for web developers in the US is $78,300, according to the Bureau of Labor Statistics (BLS) [<a href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm#tab-1" rel="noopener noreferrer" target="_blank">1</a>]. However, web developers in the US can earn up to $249,297 according to Glassdoor salary insights [<a href="https://www.glassdoor.com/Salaries/web-developer-salary-SRCH_KO0,13.htm" rel="noopener noreferrer" target="_blank">2</a>]. How much you earn will depend on many factors, including where you work, what industry you work in, and how much experience you have.</p>
-        <p>BLS estimates 23 percent industry growth for web developers between 2021-2031, a faster-than-average rate compared to other occupations. One of the driving forces behind this increase in web development jobs is the growth of e-commerce. Companies are becoming more reliant on functioning websites that operate on multiple devices to do business.</p>
-        <h2>How to become a web developer</h2>
-        <p>A formal education isn&rsquo;t always necessary to become an entry-level web developer. Some web developers have an associate or <a href="https://www.coursera.org/articles/what-is-a-bachelors-degree" rel="" target="_self">bachelor&rsquo;s degree</a> in website design or <a href="https://www.coursera.org/articles/what-is-computer-science-degree" rel="" target="_self">computer science</a>, but others teach themselves how to code and design websites. While earning a degree can make you a more competitive candidate, a strong portfolio can go a long way toward validating your skills to potential employers.</p>
-        <p>If you&rsquo;re interested in becoming a web developer, here are some steps you can take.</p>
-        <h3>1. Build web developer skills.</h3>
-        <p>Employers and clients usually expect web developers to have certain skills that demonstrate their ability to deliver on website requirements. If you&rsquo;re interested in a career as a web developer, these are some skills you can focus on to build a foundation for success.</p>
-        <h4><strong>Technical skills</strong></h4>
-        <p><br></p>
-        <ul>
-            <li>
-                <p><strong>Coding:</strong> Common programming languages include HTML, PHP, cascading style sheets, and JavaScript for front-end design. Consider learning Python, Java, or Ruby if you want to do back-end development.</p>
-            </li><br>
-        </ul>
-        <p></p>
-        <ul>
-            <li>
-                <p><strong>Responsive design:</strong> People use a variety of devices to view websites. Developers should be able to create sites that look as good on smartphones and tablets as they do on computer screens.</p>
-            </li><br>
-        </ul>
-        <p></p>
-        <ul>
-            <li>
-                <p><strong>Technical SEO:</strong> Many factors of website design can affect the site&rsquo;s search engine ranking. Understanding how search engines rank sites is useful in a developer&rsquo;s work.</p>
-            </li><br>
-        </ul>
-        <p></p>
-        <ul>
-            <li>
-                <p><strong>Version control:</strong> This lets you track and control changes to the source code without starting over from the beginning each time you run into a problem.</p>
-            </li><br>
-        </ul>
-        <p></p>
-        <ul>
-            <li>
-                <p><strong>Visual design:</strong> Understanding basic design principles, such as how to use white space, choose fonts, and incorporate images could boost your marketability.</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p><br></p>
-    </li>
-</ul>
+<script src="../app/webdev-blog.js"></script>
+<div class="blog-container">
+    <div class="landing-text">
+        <h1 id="webdev-header">Web development it is!</h1>
+        <p>But what does that even mean....?</p>
+    </div>
+    <div class="row" id="landing-btn-group">
+        <div class="col">
+            <button type="button" class="btn btn-primary landing-btn" id="btnRead"><a class="readItLink"
+                    href='#section-start'>Read it</a></button>
+            <button type="button" class="btn btn-secondary landing-btn" id="btnSkip"><a class="readItLink"
+                    href='#section-end'>Skip(to the Good Part)</a></button>
+        </div>
+    </div>
+    <div id="blog">
+        <div id="section-start">
+            <h2>What is web development?</h2>
+            <p>A web developer&rsquo;s job is to create websites. While their primary role is to ensure the website is
+                visually appealing and easy to navigate, many web developers are also responsible for the
+                website&rsquo;s
+                performance and capacity.&nbsp;</p>
+            <h3>Types of web developers</h3>
+            <p>Web developers usually fall under one of three categories: back-end developers, front-end developers, and
+                full-stack developers. Some web developers also work as webmasters. Let&rsquo;s take a closer look at
+                each
+                of these roles.</p>
+            <p><br></p>
+            <ul>
+                <li>
+                    <p><strong>Back-end web developers</strong> create the website&rsquo;s structure, write code, and
+                        verify
+                        the code works. Their responsibilities also may include managing access points for others who
+                        need
+                        to manage a website&rsquo;s content.&nbsp;</p>
+                </li>
+            </ul>
+            <p><br></p>
+            <ul>
+                <li>
+                    <p><strong>Front-end web developers</strong> work on the visual part of the website&mdash;the pages
+                        visitors see and interact with (also known as the user interface). They design the physical
+                        layout
+                        of each page, integrate graphics, and use HTML and JavaScript to enhance the site. You can gain
+                        essential front-end web development skills with <a
+                            href="https://www.coursera.org/professional-certificates/meta-front-end-developer" rel=""
+                            target="_self">Meta&apos;s Front-End Developer Professional Certificate</a>.</p>
+                </li>
+                <li>
+                    <p><strong>Full-stack developers</strong> do the work of both a back-end and front-end developer.
+                        These
+                        developers have the knowledge to build a complete website and may work for organizations that
+                        don&rsquo;t have the budget for a large website team. If you&apos;re interested in full-stack
+                        web
+                        development, consider earning <a
+                            href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+                            rel="" target="_self">IBM&apos;s Full-Stack Developer Professional Certificate</a>.</p>
+                </li>
+                <li>
+                    <p><strong>Webmasters</strong> are essentially website managers. Their primary responsibility is to
+                        keep
+                        the website updated, ensuring that the links and applications on each page work properly</p>
+                </li>
+
+                <h3>Web developer career path</h3>
+                <p>Many web developers start their careers with a single focus, usually front-end or back-end
+                    development.
+                    They may move on to be full-stack developers or explore careers in related fields, including project
+                    management, computer programming, or graphic design.&nbsp;</p>
+                <h2>How much do web developers make?</h2>
+                <p>The median annual salary for web developers in the US is $78,300, according to the Bureau of Labor
+                    Statistics (BLS) [<a
+                        href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm#tab-1"
+                        rel="noopener noreferrer" target="_blank">1</a>]. However, web developers in the US can earn up
+                    to
+                    $249,297 according to Glassdoor salary insights [<a
+                        href="https://www.glassdoor.com/Salaries/web-developer-salary-SRCH_KO0,13.htm"
+                        rel="noopener noreferrer" target="_blank">2</a>]. How much you earn will depend on many factors,
+                    including where you work, what industry you work in, and how much experience you have.</p>
+                <p>BLS estimates 23 percent industry growth for web developers between 2021-2031, a faster-than-average
+                    rate
+                    compared to other occupations. One of the driving forces behind this increase in web development
+                    jobs is
+                    the growth of e-commerce. Companies are becoming more reliant on functioning websites that operate
+                    on
+                    multiple devices to do business.</p>
+                <h2>How to become a web developer</h2>
+                <p>A formal education isn&rsquo;t always necessary to become an entry-level web developer. Some web
+                    developers have an associate or <a
+                        href="https://www.coursera.org/articles/what-is-a-bachelors-degree" rel=""
+                        target="_self">bachelor&rsquo;s degree</a> in website design or <a
+                        href="https://www.coursera.org/articles/what-is-computer-science-degree" rel=""
+                        target="_self">computer science</a>, but others teach themselves how to code and design
+                    websites.
+                    While earning a degree can make you a more competitive candidate, a strong portfolio can go a long
+                    way
+                    toward validating your skills to potential employers.</p>
+                <p>If you&rsquo;re interested in becoming a web developer, here are some steps you can take.</p>
+                <h3>1. Build web developer skills.</h3>
+                <p>Employers and clients usually expect web developers to have certain skills that demonstrate their
+                    ability
+                    to deliver on website requirements. If you&rsquo;re interested in a career as a web developer, these
+                    are
+                    some skills you can focus on to build a foundation for success.</p>
+                <h4><strong>Technical skills</strong></h4>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Coding:</strong> Common programming languages include HTML, PHP, cascading style
+                            sheets,
+                            and JavaScript for front-end design. Consider learning Python, Java, or Ruby if you want to
+                            do
+                            back-end development.</p>
+                    </li><br>
+                </ul>
+                <p></p>
+                <ul>
+                    <li>
+                        <p><strong>Responsive design:</strong> People use a variety of devices to view websites.
+                            Developers
+                            should be able to create sites that look as good on smartphones and tablets as they do on
+                            computer screens.</p>
+                    </li><br>
+                </ul>
+                <p></p>
+                <ul>
+                    <li>
+                        <p><strong>Technical SEO:</strong> Many factors of website design can affect the site&rsquo;s
+                            search
+                            engine ranking. Understanding how search engines rank sites is useful in a developer&rsquo;s
+                            work.</p>
+                    </li><br>
+                </ul>
+                <p></p>
+                <ul>
+                    <li>
+                        <p><strong>Version control:</strong> This lets you track and control changes to the source code
+                            without starting over from the beginning each time you run into a problem.</p>
+                    </li><br>
+                </ul>
+                <p></p>
+                <ul>
+                    <li>
+                        <p><strong>Visual design:</strong> Understanding basic design principles, such as how to use
+                            white
+                            space, choose fonts, and incorporate images could boost your marketability.</p>
+                    </li>
+                </ul>
+                </li>
+
+
+                <h4><strong>Workplace skills</strong></h4>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Communication:</strong> Web developers spend time discussing design ideas with their
+                            clients and team members through each step of the project.</p>
+                    </li>
+                </ul>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Customer service:</strong> A web developer creates websites for the client to use and
+                            should remain client-focused to achieve the best results.</p>
+                    </li>
+                </ul>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Detail-oriented:</strong> Little details, like a small change in code, can make a big
+                            difference in how a website performs.</p>
+                    </li>
+                </ul>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Organization:</strong> Keeping track of deadlines, project tasks, workflow, and
+                            budgets
+                            is helpful if you want to complete a website design on time.</p>
+                    </li>
+                </ul>
+                <p><br></p>
+                <ul>
+                    <li>
+                        <p><strong>Problem-solving:</strong> Web developers often run into issues when designing
+                            websites.
+                            They should have the patience and ability to identify problems in the design or coding and
+                            solve
+                            them in a methodical way.</p>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            <h3>2. Consider a degree in computer science or web design.</h3>
+            <p>While you don&rsquo;t always need a degree to get a job in web development, it can certainly help. If
+                you&rsquo;re already in school (or considering earning a degree), some majors might be a better fit for
+                your
+                career goals than others. If you&rsquo;re more interested in back-end web development, consider a degree
+                program in computer science. If you feel more drawn to front-end development, you might opt for a degree
+                in
+                web design or <a href="https://www.coursera.org/articles/what-degree-do-i-need-to-become-a-ux-designer"
+                    rel="" target="_self">user experience (UX)</a>.</p>
+            <h3>3. Take a course in web development.</h3>
+            <p>You don&rsquo;t necessarily need formal training to work as a web developer. It&rsquo;s possible to
+                acquire
+                the skills you need on your own. For example, you can take a course to learn programming languages like
+                HTML, JavaScript, or CSS, and then put what you learn into practice on your own website.</p>
+            <p>By completing an online course in web development, like <a
+                    href="https://www.coursera.org/specializations/web-design" rel="" target="_self">Web Design for
+                    Everybody: Basics of Web Development &amp; Coding</a> from the University of Michigan, you can build
+                skills while completing development projects for your portfolio.</p>
+        </div>
+        <div id="section-end">
+            <h1>If all of this seems super overwhelming, check out our guided courses!</h2>
+                <p>Our platform is designed to make learning web development easy and distraction-free. We offer a
+                    variety
+                    of interactive tutorials and exercises that are tailored to different skill levels, so you can start
+                    learning at your own pace. Additionally, our platform is built with a clean and simple interface, so
+                    you
+                    can focus on learning without being overwhelmed by distractions. We also offer a community forum
+                    where
+                    you can connect with other learners and web development experts, giving you the opportunity to get
+                    help
+                    and feedback on your progress. Overall, our platform is a great choice for anyone looking to learn
+                    web
+                    development in a supportive and distraction-free environment.</p>
+                <div class="row" id="landing-btn-group">
+                    <div class="col">
+                        <button class="btn btn-primary" id="btnContentPage"><a class="readItLink" href="../content-page.html">Click here for a free intro</a></button>
+                    </div>
+                </div>
+        </div>
+    </div>
 </div>

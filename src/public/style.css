@@ -9,6 +9,9 @@
 
 }
 /* COMMON STUFF */
+html{
+    scroll-behavior: smooth;
+}
 .body{
     font-family: 'Poppins', sans-serif;
 }
@@ -25,24 +28,25 @@ footer {
  
 /* LANDING PAGE */
 
-#landing-text{
+.landing-text{
     padding-top:50px;
+    padding-bottom:25px;
     text-align:center;
 
 }
-#landing-text h1{
+.landing-text h1{
     font-size:74pt;
 }
-#landing-text p{
+.landing-text p{
     font-size:37.5pt;
 }
-#landing-text > #text-primary{
+.landing-text > #text-primary{
     color:var(--bg-primary)
 }
 #landing-btn-group{
     text-align:center;
 }
-#landing-text > #subheader-text{
+.landing-text > #subheader-text{
     font-size:23pt;
 }
 .landing-btn{
@@ -230,6 +234,26 @@ footer {
   #blog{
     margin-left:25%;
     margin-right:25%;
-    text-align:center;
+
   }
-  
+  /* WEB DEV BLOG PAGE */
+
+
+  .readItLink{
+    color:white;
+    text-decoration:none;
+  }
+  #section-end{
+    margin-top:200px;
+    margin-bottom:200px
+  }
+  #section-end h1{
+    color:var(--bs-blue)
+  }
+  #section-end p{
+    margin-top:50px;
+    font-size:20pt;
+  }
+#section-end button{
+    font-size:24pt;
+}
