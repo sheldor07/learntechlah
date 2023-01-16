@@ -11,13 +11,13 @@ async function createNewProject(name,description,githubLink,demoLink,techStack){
 }
 async function showAllProjects(){
     const projects = await Projects.findAll()//because of relationship defined in models between POsts and USers
-    const userProjects=[]
-    for(project of projects){
-        if(project.user.userId === req.params.userId){
-            userProjects.push(project)
-        }
-    }
-    return userProjects
+    // const userProjects=[]
+    // for(project of projects){
+    //     if(project.user.userId === req.params.userId){
+    //         userProjects.push(project)
+    //     }
+    // }
+    return projects
 
 }
 //{include:[{model:Users}]}

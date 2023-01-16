@@ -40,10 +40,10 @@ const Projects = db.define('project', {
     techStack:Sequelize.DataTypes.STRING,
 })
 
-Users.hasMany(Projects,{
-    foreignKey: 'userId'
-})
-Projects.belongsTo(Users)
+// Users.hasMany(Projects,{
+//     foreignKey: 'userId'
+// })
+// Projects.belongsTo(Users)
 
 
 module.exports = {
