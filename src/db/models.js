@@ -3,9 +3,10 @@ const bcrypt = require('bcrypt');
 //initialising database
 const db = new Sequelize({
     dialect: 'mysql',
-    database: 'techlinkedindb',
-    username: 'collegeuser',
-    password: 'collegepass',
+    database: 'heroku_2bad3fd73f80dd5',
+    username: 'b7124b1733879f',
+    password: '8b340a6f',
+    host:'us-cdbr-east-06.cleardb.net',
 })
 // standard definitions for attributes
 const COL_USERNAME_DEF = {

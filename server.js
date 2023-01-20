@@ -15,7 +15,7 @@ const SERV_PORT = process.env.PORT || 8484
 db.sync()
     .then(()=>{
         app.listen(SERV_PORT,()=>{
-            console.log('server started on localhost:8484')
+            console.log('server started on localhost:',SERV_PORT)
         })
     })
     .catch((err) => {
