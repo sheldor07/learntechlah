@@ -1,5 +1,5 @@
 # tech-linkedin
-##Team Members: Yajat Gulati, Ananya Kapoor, Mythili Janak Mulani, Akshar Dhruv Krishnan
+### Entry for SCSE TechFest Hackathon 2022
 
 ## Inspiration
 
