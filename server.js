@@ -11,10 +11,10 @@ app.use('/api/users', usersRoute)
 app.use('/api/projects', projectsRoute)
 app.use('/',express.static(__dirname + '/src/public'))
 
-
+const SERV_PORT = process.env.PORT || 8484
 db.sync()
     .then(()=>{
-        app.listen(8484,()=>{
+        app.listen(SERV_PORT,()=>{
             console.log('server started on localhost:8484')
         })
     })
